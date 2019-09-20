@@ -28,6 +28,7 @@ ax1.set_ylabel('WO [x1000]', color='r')
 ax2.set_ylabel('NL Beer consumption [x1000 hectoliter]', color='b')
 
 # Save the graph as a png
+plt.tight_layout()
 plt.savefig('graph.png', dpi = 600)
 
 # Show the graph
